@@ -1,0 +1,24 @@
+{
+  "name": "hybrid-modloader",
+  "version": "1.0.0",
+  "description": "A hybrid Minecraft modloader UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.483.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0"
+  }
+}
